@@ -33,5 +33,4 @@ In order to implement instructions we must have values in the register to act up
 ### Running the processor
 Once the above initializations have been done as desired, compile the file "Processor_tb.v" using iverilog using the following command:
 + compilation
-  
-**vvp gen-compiled
+**iverilog -o gen-compiled Processor_tb.v** 
