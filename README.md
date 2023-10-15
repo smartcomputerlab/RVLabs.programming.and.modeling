@@ -35,3 +35,16 @@ Once the above initializations have been done as desired, compile the file "Proc
 + compilation
   
 **iverilog -o gen-compiled Processor_tb.v** 
+
+The above command generates a compile file named as "gen-compiled". After compilation we can execute the compiled file using:
+
++ execution
+
+**vvp gen-compiled**
+
+### Viewing waveform
+
+The waveform generated from testbench is named as **output_wave.vcd**
+Use GTKWave to view the waveform file
+
+**gtkwave output_wave.vcd**
