@@ -48,3 +48,7 @@ The waveform generated from testbench is named as **output_wave.vcd**
 Use GTKWave to view the waveform file
 
 **gtkwave output_wave.vcd**
+
+<picture>
+ <img alt="YOUR-ALT-TEXT" src="images/image.png">
+</picture>
