@@ -1,7 +1,7 @@
 
 
 
-# RISC-V programming
+# Lab 1 and 2 RISC-V programming
 This repository contains the preparations for RISC-V labs.
 The first three labs deal with **assembly level programming**. We start in Lab0 with simple arithmetical examples, 
 and we continue with Lab1 and Lab2 to cover simple system and network oriented examples.
