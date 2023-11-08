@@ -20,13 +20,8 @@ The software development is based on C/C++ and assembly language.
 The hardware development is based on Verilog (iverilog) and GTKWave graphic environment.
 
 # Lab 3 - RISC-V architecture and modeling - project
+The project is based on simple RISC-V (RV32: R-type) model in Verilog.
 
-
-
-
-
-
-The project is based on simple RISC-V (RV32R) model in Verilog.
 <picture>
  <img alt="YOUR-ALT-TEXT" src="images/RISCV.flow.proc.drawio.png">
 </picture>
