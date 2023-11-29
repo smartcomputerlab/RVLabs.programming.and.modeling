@@ -20,9 +20,8 @@ The VisionFive 2 board operates with Debian OS. The system contains all nessary 
 The software development is based on C/C++ and assembly language.
 The hardware development is based on Verilog (iverilog) and GTKWave graphic environment.
 
-# Lab 3 - RISC-V architecture and modeling - project
-The project is based on simple RISC-V (RV32: R-type) model in Verilog.
-
+# Lab 3 and Lab 4 - RISC-V architecture and modeling - design projects
+The first project in Lab 3 is based on simple RISC-V (RV32: R-type) model in Verilog.
 <picture>
  <img alt="YOUR-ALT-TEXT" src="images/RISCV.flow.proc.drawio.png">
 </picture>
@@ -71,3 +70,7 @@ Use GTKWave to view the waveform file
 <picture>
  <img alt="YOUR-ALT-TEXT" src="images/image.png">
 </picture>
+
+## Lab 4
+The second project invloves RISC-V model for complete set of I instructions
+
