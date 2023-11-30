@@ -1,3 +1,7 @@
+<picture>
+ <img alt="YOUR-ALT-TEXT" src="images/RVLabs.logo.drawio.png">
+</picture>
+
 # Lab 1 and 2 RISC-V programming
 This repository contains the preparations for RISC-V labs.
 The first three labs deal with **assembly level programming**. We start in **Lab1** with simple arithmetical examples, 
