@@ -10,9 +10,7 @@ and we continue with **Lab2**  to cover simple system and network oriented examp
 Our labs are carried on RISC-V SBC that are StarFive VisionFive 2 board.
 <picture>
  <img alt="YOUR-ALT-TEXT" src="images/RISC-V.StarFive2.boad.500x500.png">
-</picture>
-
-**VisionFive 2** is the world’s first high-performance RISC-V single board computer (SBC) with an integrated GPU. 
+</picture> **VisionFive 2** is the world’s first high-performance RISC-V single board computer (SBC) with an integrated GPU. 
 The board is based on JH7110 64-bit SoC with **RV64GC** instruction set.
 The SoC is integrated with IMG BXE-4-32 MC1, supporting OpenCL 3.0, OpenGL ES 3.2, and Vulkan 1.2. Available with 2/4/8 GB LPDDR4 RAM options, VisionFive 2 provides rich I/O peripherals such as M.2 connector, eMMC socket, USB 3.0 ports, a 40-pin GPIO header, Gigabit Ethernet ports, a TF card slot, and many more. 
 
