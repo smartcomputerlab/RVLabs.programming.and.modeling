@@ -37,7 +37,7 @@ DLabs first introduce Verilog HDL. Then we describe/desing several RISC-V archit
  <img alt="YOUR-ALT-TEXT" src="images/RISCV.flow.proc.drawio.png">
 </picture>
 
-## simple RISC-V - model structure and tools
+## DLab4 : simple RISC-V - model structure and tools
 + Each sub-unit is created in its own directory
 + Each directory contains the modules used in this particular unit
 + Additionally it consists of testbenc used to test and debug those modules
@@ -82,8 +82,8 @@ Use GTKWave to view the waveform file
  <img alt="YOUR-ALT-TEXT" src="images/image.png">
 </picture>
 
-## Lab 4
-The second project invloves RISC-V model (miniRV321) for complete set of **I instructions**
+## DLab 4
+The second modeling project invloves RISC-V model (miniRV321) for complete set of **I instructions**
 <picture>
  <img alt="YOUR-ALT-TEXT" src="images/RV.100.mem.interface.drawio.png">
 </picture>
