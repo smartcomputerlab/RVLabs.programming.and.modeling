@@ -23,7 +23,7 @@ It has onboard audio and video processing capabilities and has MIPI-CSI and MIPI
  <img alt="YOUR-ALT-TEXT" src="images/bpi-f3_05.board.jpg">
 </picture> 
 
-**BPI-F3 with SpacemiT K1** is first high-performance RISC-V SBC with 8-cores, each implementing RV64GCVB extension and additional AI instructions.
+**BPI-F3 with SpacemiT K1** is first high-performance RISC-V SBC with 8-cores, each implementing **RV64GCVB** extension and additional **AI instructions**.
 
 ## Software
 The VisionFive 2 board operates with Debian OS. The system contains all nessary packages and libraries to carry software and hardware development exercises.
