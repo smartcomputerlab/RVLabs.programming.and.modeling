@@ -30,14 +30,14 @@ The VisionFive 2 board operates with Debian OS. The system contains all nessary 
 The software development is based on C/C++ and assembly language.
 The hardware development is based on Verilog (iverilog) and GTKWave graphic environment.
 
-# DLabs - RISC-V architecture desription and modeling - design projects
+# MLabs - RISC-V architecture desription and modeling - design projects
 DLabs first introduce Verilog HDL. Then we describe/desing several RISC-V architectures starting with a simple RISC-V (RV32: R-type) model in Verilog.
 
 <picture>
  <img alt="YOUR-ALT-TEXT" src="images/RISCV.flow.proc.drawio.png">
 </picture>
 
-## DLab4 : simple RISC-V - model structure and tools
+## MLab4 : simple RISC-V - model structure and tools
 + Each sub-unit is created in its own directory
 + Each directory contains the modules used in this particular unit
 + Additionally it consists of testbenc used to test and debug those modules
