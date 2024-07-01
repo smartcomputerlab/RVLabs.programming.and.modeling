@@ -82,7 +82,7 @@ Use GTKWave to view the waveform file
  <img alt="YOUR-ALT-TEXT" src="images/image.png">
 </picture>
 
-## DLab 4
+## MLab 4
 The second modeling project invloves RISC-V model (miniRV321) for complete set of **I instructions**
 <picture>
  <img alt="YOUR-ALT-TEXT" src="images/RV.100.mem.interface.drawio.png">
