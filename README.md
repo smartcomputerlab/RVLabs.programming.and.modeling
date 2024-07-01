@@ -9,9 +9,11 @@ The first three labs deal with **assembly level programming**. We start in **Lab
 and we continue with **Lab2**  to cover simple system and network oriented examples.
 ## Hardware 
 Our labs are carried on RISC-V SBCs that are StarFive VisionFive2 and BPI-F3 boards.
+
 <picture>
  <img alt="YOUR-ALT-TEXT" src="images/RISC-V.StarFive2.boad.500x500.png">
 </picture> 
+
 **VisionFive 2** is the world’s first high-performance RISC-V single board computer (SBC) with an integrated GPU. 
 The board is based on JH7110 64-bit SoC with **RV64GC** instruction set.
 The SoC is integrated with IMG BXE-4-32 MC1, supporting OpenCL 3.0, OpenGL ES 3.2, and Vulkan 1.2. Available with 2/4/8 GB LPDDR4 RAM options, VisionFive 2 provides rich I/O peripherals such as M.2 connector, eMMC socket, USB 3.0 ports, a 40-pin GPIO header, Gigabit Ethernet ports, a TF card slot, and many more. 
@@ -29,12 +31,13 @@ The software development is based on C/C++ and assembly language.
 The hardware development is based on Verilog (iverilog) and GTKWave graphic environment.
 
 # DLabs - RISC-V architecture desription and modeling - design projects
-The first project in Lab 3 is based on simple RISC-V (RV32: R-type) model in Verilog.
+DLabs first introduce Verilog HDL. Then we describe/desing several RISC-V architectures starting with a simple RISC-V (RV32: R-type) model in Verilog.
+
 <picture>
  <img alt="YOUR-ALT-TEXT" src="images/RISCV.flow.proc.drawio.png">
 </picture>
 
-## Project structure and tools
+## simple RISC-V - model structure and tools
 + Each sub-unit is created in its own directory
 + Each directory contains the modules used in this particular unit
 + Additionally it consists of testbenc used to test and debug those modules
