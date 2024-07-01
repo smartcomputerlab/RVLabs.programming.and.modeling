@@ -2,8 +2,8 @@
  <img alt="YOUR-ALT-TEXT" src="images/RVLabs.logo.drawio.png">
 </picture>
 
-# Lab 1 and 2 RISC-V programming
-This repository contains the preparations for RISC-V labs.
+# PLabs RISC-V programming 
+This repository contains the preparations for RISC-V labs (PLabs and DLabs)
 The first three labs deal with **assembly level programming**. We start in **Lab1** with simple arithmetical examples, 
 and we continue with **Lab2**  to cover simple system and network oriented examples.
 ## Hardware 
@@ -21,7 +21,7 @@ The VisionFive 2 board operates with Debian OS. The system contains all nessary 
 The software development is based on C/C++ and assembly language.
 The hardware development is based on Verilog (iverilog) and GTKWave graphic environment.
 
-# Lab 3 and Lab 4 - RISC-V architecture and modeling - design projects
+# DLabs - RISC-V architecture desription and modeling - design projects
 The first project in Lab 3 is based on simple RISC-V (RV32: R-type) model in Verilog.
 <picture>
  <img alt="YOUR-ALT-TEXT" src="images/RISCV.flow.proc.drawio.png">
