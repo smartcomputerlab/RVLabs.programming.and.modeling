@@ -1,0 +1,62 @@
+#! /usr/bin/vvp
+:ivl_version "12.0 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 12;
+:vpi_module "/usr/lib/riscv64-linux-gnu/ivl/system.vpi";
+:vpi_module "/usr/lib/riscv64-linux-gnu/ivl/vhdl_sys.vpi";
+:vpi_module "/usr/lib/riscv64-linux-gnu/ivl/vhdl_textio.vpi";
+:vpi_module "/usr/lib/riscv64-linux-gnu/ivl/v2005_math.vpi";
+:vpi_module "/usr/lib/riscv64-linux-gnu/ivl/va_math.vpi";
+S_0x2ab7711160 .scope module, "tb_simple_module" "tb_simple_module" 2 3;
+ .timescale -9 -12;
+v0x2ab7722c30_0 .var "a", 0 0;
+v0x2ab7722d00_0 .var "b", 0 0;
+v0x2ab7722dd0_0 .net "y", 0 0, L_0x2ab7722ed0;  1 drivers
+S_0x2ab77112f0 .scope module, "dut" "simple_module" 2 8, 3 2 0, S_0x2ab7711160;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "a";
+    .port_info 1 /INPUT 1 "b";
+    .port_info 2 /OUTPUT 1 "y";
+L_0x2ab7722ed0 .functor AND 1, v0x2ab7722c30_0, v0x2ab7722d00_0, C4<1>, C4<1>;
+v0x2ab7711520_0 .net "a", 0 0, v0x2ab7722c30_0;  1 drivers
+v0x2ab7722a50_0 .net "b", 0 0, v0x2ab7722d00_0;  1 drivers
+v0x2ab7722b10_0 .net "y", 0 0, L_0x2ab7722ed0;  alias, 1 drivers
+    .scope S_0x2ab7711160;
+T_0 ;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x2ab7722c30_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x2ab7722d00_0, 0, 1;
+    %delay 10000, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x2ab7722c30_0, 0, 1;
+    %delay 10000, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x2ab7722d00_0, 0, 1;
+    %delay 10000, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x2ab7722c30_0, 0, 1;
+    %delay 10000, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x2ab7722d00_0, 0, 1;
+    %delay 10000, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x2ab7722c30_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x2ab7722d00_0, 0, 1;
+    %delay 10000, 0;
+    %vpi_call 2 22 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+    .scope S_0x2ab7711160;
+T_1 ;
+    %vpi_call 2 26 "$dumpfile", "tb_simple_module.vcd" {0 0 0};
+    %vpi_call 2 27 "$dumpvars", 32'sb00000000000000000000000000000000, S_0x2ab7711160 {0 0 0};
+    %end;
+    .thread T_1;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "tb_simple_module.v";
+    "simple_module.v";
