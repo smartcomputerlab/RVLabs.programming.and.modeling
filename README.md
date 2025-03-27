@@ -97,3 +97,9 @@ The second modeling project invloves RISC-V model (miniRV32I) for complete set o
 <picture>
  <img alt="YOUR-ALT-TEXT" src="images/RV.MLabs3.RV32I.arch.png">
 </picture>
+The following is the global waveform for top architecture.
+<picture>
+ <img alt="YOUR-ALT-TEXT" src="images/RV.MLabs3.waveform.all.png">
+</picture>
+
+
