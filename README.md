@@ -8,6 +8,7 @@ This repository contains the preparations for RISC-V labs (PLabs and DLabs)
 In three Programming labs deal with **assembly level programming**. In **PLab1** we start with simple arithmetical examples. In this lab we use system functions to read the program arguments and to print the results.
 We continue with **PLab2**  to cover "pure" assembly programming. In this lab we use the debugger to analuze the code and the execution run.
 In  **PLab3** we continue the development of specific functions and macros. We desassembly the code to obtain binary content of the memory. In the following Modeling labs this approach allows us to generate the binary codes for the initialization of the instruction memory in the Verilog models.
+**PLab4** and **PLab5** deal with parrallel programming and binary programming at assembly level. The **vector (V)** and **binary (B)** extensions are available on BPI-F3 and OPI RV2 boards.
 
 ## Hardware 
 Our labs are carried on RISC-V SBCs that are StarFive VisionFive2 and BPI-F3 boards.
