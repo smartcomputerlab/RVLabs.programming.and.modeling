@@ -43,18 +43,18 @@ DLabs first introduce Verilog HDL. Then we describe/desing several RISC-V archit
  <img alt="YOUR-ALT-TEXT" src="images/RISCV.flow.proc.drawio.png">
 </picture>
 
-## MLab4 : simple RISC-V - model structure and tools
+## MLab1 : Verilog HDL - essentials and tools: simulation and analysis
+### iVerilog:
+While there are many compilers for verilog present, not many of them are open source, and even fewer are robust, user-friendly and updated regularly. Icarus Verilog checks all boxes and can be learnt easily with this really helpful wiki setup for it.
+### GTKWave:
+Another really powerful open source tool that was essential in building this project was GTKWave. It helps to view vcd and other waveforms. Really important for debugging and understanding if dependencies of different signals are as described by you.
+
+## MLab2 : simple RISC-V - model structure and tools
 + Each sub-unit is created in its own directory
 + Each directory contains the modules used in this particular unit
 + Additionally it consists of testbenc used to test and debug those modules
 + The final processor implementation is in the directory - Processor
 + This uses all the relevant units and integrates them to provide working processor
-
-### iVerilog:
-While there are many compilers for verilog present, not many of them are open source, and even fewer are robust, user-friendly and updated regularly. Icarus Verilog checks all boxes and can be learnt easily with this really helpful wiki setup for it.
-
-### GTKWave:
-Another really powerful open source tool that was essential in building this project was GTKWave. It helps to view vcd and other waveforms. Really important for debugging and understanding if dependencies of different signals are as described by you.
 
 ## Getting Started
 This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
@@ -88,8 +88,8 @@ Use GTKWave to view the waveform file
  <img alt="YOUR-ALT-TEXT" src="images/image.png">
 </picture>
 
-## MLab 4
-The second modeling project invloves RISC-V model (miniRV321) for complete set of **I instructions**
+## MLab 3
+The second modeling project invloves RISC-V model (miniRV32I) for complete set of **I instructions**
 <picture>
  <img alt="YOUR-ALT-TEXT" src="images/RV.100.mem.interface.drawio.png">
 </picture>
