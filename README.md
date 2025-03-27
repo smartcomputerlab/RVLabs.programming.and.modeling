@@ -39,9 +39,6 @@ The hardware development is based on Verilog (iverilog) and GTKWave graphic envi
 # MLabs - RISC-V architecture desription and modeling - design projects
 DLabs first introduce Verilog HDL. Then we describe/desing several RISC-V architectures starting with a simple RISC-V (RV32: R-type) model in Verilog.
 
-<picture>
- <img alt="YOUR-ALT-TEXT" src="images/RISCV.flow.proc.drawio.png">
-</picture>
 
 ## MLab1 : Verilog HDL - essentials and tools: simulation and analysis
 ### iVerilog:
@@ -55,6 +52,10 @@ Another really powerful open source tool that was essential in building this pro
 + Additionally it consists of testbenc used to test and debug those modules
 + The final processor implementation is in the directory - Processor
 + This uses all the relevant units and integrates them to provide working processor
+
+<picture>
+ <img alt="YOUR-ALT-TEXT" src="images/RISCV.flow.proc.drawio.png">
+</picture>
 
 ## Getting Started
 This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
