@@ -11,7 +11,7 @@ and we continue with **Lab2**  to cover simple system and network oriented examp
 Our labs are carried on RISC-V SBCs that are StarFive VisionFive2 and BPI-F3 boards.
 
 <picture>
- <img alt="YOUR-ALT-TEXT" src="images/RISC-V.StarFive2.boad.500x500.png">
+ <img alt="YOUR-ALT-TEXT" src="images/RV.VisionFive.V2.board.png">
 </picture> 
 
 **VisionFive 2** is the world’s first high-performance RISC-V single board computer (SBC) with an integrated GPU. 
