@@ -95,7 +95,7 @@ Use GTKWave to view the waveform file
 </picture>
 
 ## MLab 3
-The second modeling project invloves RISC-V model (miniRV32I) for complete set of **I instructions**
+The second modeling project involves RISC-V model (miniRV32I) for complete set of **I instructions**
 <picture>
  <img alt="YOUR-ALT-TEXT" src="images/RV.MLabs3.RV32I.arch.png">
 </picture>
@@ -103,5 +103,8 @@ The following is the global waveform for top architecture.
 <picture>
  <img alt="YOUR-ALT-TEXT" src="images/RV.MLabs3.waveform.all.png">
 </picture>
+
+## MLab 4
+In this lab we work on the first extension - **M relative to multiplication and division instructions.
 
 
