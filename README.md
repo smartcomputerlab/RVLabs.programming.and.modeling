@@ -95,5 +95,5 @@ Use GTKWave to view the waveform file
 ## MLab 3
 The second modeling project invloves RISC-V model (miniRV32I) for complete set of **I instructions**
 <picture>
- <img alt="YOUR-ALT-TEXT" src="images/RV.MLabs3.RV32I.archi.png">
+ <img alt="YOUR-ALT-TEXT" src="images/RV.MLabs3.RV32I.arch.png">
 </picture>
