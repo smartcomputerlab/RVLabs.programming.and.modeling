@@ -105,6 +105,6 @@ The following is the global waveform for top architecture.
 </picture>
 
 ## MLab 4
-In this lab we work on the first extension - **M relative to multiplication and division instructions.
+In this lab we work on the first extension - **M** relative to multiplication and division instructions.
 
 
