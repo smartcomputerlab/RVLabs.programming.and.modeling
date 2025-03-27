@@ -25,6 +25,13 @@ It has onboard audio and video processing capabilities and has MIPI-CSI and MIPI
 
 **BPI-F3 with SpacemiT K1** is first high-performance RISC-V SBC with 8-cores, each implementing **RV64GCVB** extension and additional **AI instructions**.
 
+
+<picture>
+ <img alt="YOUR-ALT-TEXT" src="images/RV.OPI.RV2.board.jpg">
+</picture> 
+
+*OPI RV2 with SpacemiT K1** is first high-performanceSoC with 8-cores, each implementing **RV64GCVB** extension and additional **AI instructions**.
+
 ## Software
 The VisionFive 2 board operates with Debian OS. The system contains all nessary packages and libraries to carry software and hardware development exercises.
 The software development is based on C/C++ and assembly language.
