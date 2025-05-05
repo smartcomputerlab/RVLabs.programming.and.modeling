@@ -110,3 +110,6 @@ In this lab we work on the first extension - **M** relative to multiplication an
 
 
 # IoT Labs RISC-V based IoT DevKit and low-power IoT Architectures development
+IoT low-power Architectures are developed with the IoT extension board to the main RISC-V board.
+The IoT SoC integrates RISC-V (RV32) microcontroler and all necessary functional bloicks and interfaces to build the efficient IoT Architectures.
+The communication means include WiFi/BLE and additional LoRa modem.
