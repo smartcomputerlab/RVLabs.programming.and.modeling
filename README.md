@@ -118,7 +118,7 @@ The following is the global waveform for top architecture.
 <picture>
  <img alt="YOUR-ALT-TEXT" src="images/OPI.DevKit.all.png">
 </picture>
-###  Thonny IDE
+### Thonny IDE
 <picture>
  <img alt="YOUR-ALT-TEXT" src="images/RV.IoT.Thonny.LoRa.send.recv.png">
 </picture>
