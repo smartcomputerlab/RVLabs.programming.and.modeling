@@ -114,8 +114,12 @@ IoT low-power Architectures are developed with the IoT extension board to the ma
 The IoT SoC integrates RISC-V (RV32) microcontroler and all necessary functional bloicks and interfaces to build the efficient IoT Architectures.
 The communication means include WiFi/BLE and additional LoRa modem.
 The following is the global waveform for top architecture.
-
-
+### IoT extension board
 <picture>
  <img alt="YOUR-ALT-TEXT" src="images/OPI.DevKit.all.png">
 </picture>
+###  Thonny IDE
+<picture>
+ <img alt="YOUR-ALT-TEXT" src="images/RV.IoT.Thonny.LoRa.send.recv.png">
+</picture>
+
